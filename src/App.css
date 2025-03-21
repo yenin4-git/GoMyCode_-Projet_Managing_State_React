@@ -1,22 +1,70 @@
-.App {
+.App { /* style App */
   text-align: center;
   padding: 20px;
 }
 
-input {
+ input { /* style input */
   margin: 5px;
   padding: 5px;
   width: 200px;
   height: 30px;
 }
 
-button {
+.add-button { /* style add-button */
   margin: 5px;
   font-size: 16px;
   padding: 5px;
   width: 100px;
   height: 30px;
-  color: red;
+  color: white;
+  background-color: rgb(118, 175, 250);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.add-button:hover { /* style add-button:hover */
+  background-color: blue;
+}
+
+.edit-button { /* style edit-button */
+  margin: 5px;
+  font-size: 16px;
+  padding: 5px;
+  width: 100px;
+  height: 30px;
+  color: white;
+  background-color: rgb(114, 241, 140);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.edit-button:hover { /* style edit-button:hover */
+  background-color: rgb(7, 130, 7);
+}
+
+.delete-button { /* style delete-button */
+  margin: 5px;
+  font-size: 16px;
+  padding: 5px;
+  width: 100px;
+  height: 30px;
+  color: white;
+  background-color: rgb(241, 114, 114);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.delete-button:hover { /* style delete-button:hover */
+  background-color: rgb(185, 6, 6);
+}
+
+.save-button { /* style save-button */
+  margin: 5px;
+  font-size: 16px;
+  padding: 5px;
+  width: 100px;
+  height: 30px;
+  color: rgb(9, 179, 34);
   font-weight: bold;
   cursor: pointer;
 }

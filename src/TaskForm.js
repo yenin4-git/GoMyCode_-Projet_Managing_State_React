@@ -17,19 +17,23 @@ function TaskForm({ onSubmit }) { // soumission du formulaire
 
   return ( 
     <form onSubmit={handleSubmit}> 
+      <div className='container'>
       <input
         type="text"
         placeholder="Task Name"
         value={taskName}
         onChange={(e) => setTaskName(e.target.value)} // met à jour la valeur nom
+        className="input"
       />
       <input
         type="text"
         placeholder="Task Description"
         value={taskDescription}
         onChange={(e) => setTaskDescription(e.target.value)} // met à jour la valeur description
+        className="input"
       />
-      <button type="submit">Add Task</button>
+      <button type="submit" className='add-button'>Add Task</button>
+      </div>
     </form>
   );
 }
